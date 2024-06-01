@@ -8,8 +8,8 @@ function App() {
   function handleClick() {
     setCount(count + 1);
 
-    if (count > 1) {
-      alert("You got your first click!")
+    if (count == 1){
+      alert("Achivement: First Click!")
     }
   }
 
