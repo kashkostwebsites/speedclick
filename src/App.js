@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+const [count, setCount] = useState(0);
+
+function handleclick() {
+  setCount(count + 1);
+}
 
 function App() {
   return (
@@ -10,13 +15,12 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick="handleclick()"
         >
-          Learn React
+          Click Now! 
         </a>
+
+        <p>Clicked: {count} times</p>
       </header>
     </div>
   );
