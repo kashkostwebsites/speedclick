@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+function varible() {
 const [count, setCount] = useState(0);
+}
 
 function handleclick() {
   setCount(count + 1);
