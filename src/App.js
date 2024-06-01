@@ -5,12 +5,12 @@ import React, { useState } from 'react';
 
 
 
-
+function varfix() {
 const [count, setCount] = useState(0);
-
+}
 
 function handleclick() {
-  setCount(count + 1);
+ varfix.setCount(count + 1);
 }
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           Click Now! 
         </a>
 
-        <p>Clicked: {count} times</p>
+        <p>Clicked: {varfix.count} times</p>
       </header>
     </div>
   );
