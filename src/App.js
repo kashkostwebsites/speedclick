@@ -7,6 +7,10 @@ function App() {
 
   function handleClick() {
     setCount(count + 1);
+
+    if (count > 1) {
+      alert("You got your first click!")
+    }
   }
 
   return (
@@ -17,6 +21,7 @@ function App() {
           Click Now! 
         </button>
         <p>Clicked: {count} times</p>
+        
       </header>
     </div>
   );
