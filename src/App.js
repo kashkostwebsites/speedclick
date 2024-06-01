@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-function varible() {
+import React, { useState } from 'react';
+
+function Varible() {
 const [count, setCount] = useState(0);
 }
 
