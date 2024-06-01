@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>How much can you click!</h1>
-        <a onClick={handleClick}>
+        <button onClick={handleClick}>
           Click Now! 
-        </a>
+        </button>
         <p>Clicked: {count} times</p>
       </header>
     </div>
