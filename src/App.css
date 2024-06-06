@@ -30,9 +30,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: scale(10, 10, 10);
+    transform: scale(1); /* Start scale */
   }
   to {
-    transform: scale(50, 50, 50);
+    transform: scale(5); /* End scale */
   }
 }
