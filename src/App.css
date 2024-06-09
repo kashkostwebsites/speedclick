@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-title {
-    animation: App-logo-spin infinite 10s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
@@ -30,9 +30,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: scale(1); /* Start scale */
+    transform: scale(5); /* Start scale */
   }
   to {
-    transform: scale(5); /* End scale */
+    transform: scale(1); /* End scale */
   }
 }
