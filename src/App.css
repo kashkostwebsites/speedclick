@@ -33,6 +33,6 @@
     transform: scale(1); /* Start scale */
   }
   to {
-    transform: scale(5); /* End scale */
+    transform: scale(2); /* End scale */
   }
 }
